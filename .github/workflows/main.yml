@@ -12,7 +12,7 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/galaxybuild-project/android_kernel_samsung_msm6375
-          kernel-branch: stock
+          kernel-branch: next-susfs
           config: a23xq_eur_open_defconfig
           arch: arm64
           aosp-gcc: true
